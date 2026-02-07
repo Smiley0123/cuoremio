@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For My Love ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<div class="page page1 active">
+    <h1>Happy one year anniversary of the day we met ❤️</h1>
+    <button class="btn" onclick="goPage2()">Continue</button>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page page2">
+    <h2>I wrote something for you for this special day 
+        <br>Would you like to read it?🥰💌💫
+    </h2>
+    <div class="buttons">
+        <button id="yesBtn" class="btn">Yes 😍</button>
+        <button id="noBtn" class="btn">No 🙈</button>
+    </div>
+</div>
+
+<!-- LETTER -->
+<div class="overlay" id="overlay">
+    <div class="frame">
+        <button class="close-btn" onclick="closeLetter()">✖</button>
+        <div class="letter-body" id="letter"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
